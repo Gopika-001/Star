@@ -38,3 +38,18 @@ footer {
   text-align: center;
   padding: 10px;
 }
+@media (max-width: 600px) {
+    header, section, footer {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+}
